@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
-function ProjectSlide({name, id, icons, github, weblink}) {
+function ProjectSlide({name, id, description, icons, github, weblink}) {
     const [iconList, setIcon] = useState(icons);
     
     return (
-      <div className="slide">
-        <h1>{name}</h1>
+      <div  className="slide">
+        <h2 >{name}</h2>
+        <h4>{description}</h4>
+        <hr />
         <img className="img-fluid" 
             src={"/img/"+ id + ".png"} 
             alt="logo"/> 

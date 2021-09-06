@@ -2,6 +2,7 @@ const projects = [
     {
         id: 1,
         name: "Test name",
+        description: "test description",
         icons: [
         "html",
         "css",
@@ -17,6 +18,7 @@ const projects = [
     {
         id: 1,
         name: "Test name",
+        description: "test description",
         icons: [
         "html",
         "css",
@@ -31,6 +33,7 @@ const projects = [
     {
         id: 1,
         name: "Test name",
+        description: "test description",
         icons: [
         "html",
         "css",
@@ -41,6 +44,7 @@ const projects = [
     {
         id: 1,
         name: "Test name",
+        description: "test description",
         icons: [
         "html",
         "css",
@@ -54,6 +58,7 @@ const projects = [
     {
         id: 1,
         name: "Test name",
+        description: "test description",
         icons: [
         "html",
         "css",

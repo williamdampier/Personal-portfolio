@@ -10,41 +10,8 @@ body {
     font-size: 1.8rem;
 }
 
-a {
-    text-decoration: none;
-    color: cadetblue;
-    font-weight: 300;
-}
-
-#navbar {
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    top: 0;
-    left: 0;
-    height: 10%;
-    width: 100%;
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
-    background-color: #082032;
-}
-
-.nav-list {
-    display: flex;
-    margin-right: 2rem;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
 
 
-
-li {
-    display: inline;
-    margin-right: 2rem;
- 
-    }
 /* Welcome section */
 
 #welcome-section {    
@@ -69,9 +36,17 @@ li {
         font-size: medium;
     }
 
+    #about-section {
+        padding-top: 3%;
+        background-color: #EAE2B6;
+        color: black;
+    }
     /*Projects section */
     #projects {
-        margin: auto;
+        padding-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+      
     }
 
     .slide {
