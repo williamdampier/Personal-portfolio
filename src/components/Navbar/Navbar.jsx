@@ -5,12 +5,13 @@ import cl from './Navbar.module.css'
 function Navbar() {
     return (
         <div className={cl.navbar}>
-        <ul className={cl.navlist}>
-            <li className={cl.item}><a className={cl.link} href="#about-section">About</a></li>
-            <li className={cl.item}><a className={cl.link} href="#projects">Work</a></li>
-            <li className={cl.item}><a className={cl.link} href="#contact-section">Contact</a></li>
+        <nav className={cl.navlist}>
+           <a className={cl.link} href="#welcome-section">About</a>
+           <a className={cl.link} href="#projects">Work</a>
+           <a className={cl.link} target="_blank" href="https://github.com/williamdampier">GitHub</a>
+           <a className={cl.link} href="mailto:vladimir.kuban88@gmail.com">Contact</a>
             
-        </ul>
+        </nav>
         </div>
     )
 }

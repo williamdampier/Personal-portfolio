@@ -17,14 +17,12 @@ function ProjectSlide({name, id, description, icons, github, weblink}) {
                  
         </ul>
         <hr />
-       <ul className="project-links">
-           <li>
-                 <a href={github} target="_blank">Github <img src="/icons/github.png" alt="github icon"></img></a>
-            </li>
-             <li>
-                <a href={weblink} target="_blank">Weblink <img src="/icons/online.png" alt="weblink icon"></img></a>
-           </li>
-        </ul> 
+       <div className="project-links">
+           <a href={github} target="_blank"><img src="/icons/github.png" alt="github icon"></img></a>
+           
+           <a href={weblink} target="_blank"><img src="/icons/online.png" alt="weblink icon"></img></a>
+           
+        </div> 
       </div>
     )
   }

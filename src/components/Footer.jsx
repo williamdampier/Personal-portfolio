@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-        <p>Copyright {new Date().getFullYear()}</p></footer>
+        <p style={{'font-size': 'small', 'margin-top': '20px'}}>Built by Vladi Kuban, {new Date().getFullYear()}</p></footer>
     );
 }
 

@@ -2,19 +2,28 @@
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    top: 0;
-    left: 0;
-    height: 8%;
-    width: 100%;
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100vw;
+    box-shadow: 1px 1px 5px 1px rgb(153 153 155 / 40%);
     background-color: #082032;
     z-index: 1;
 }
 
 .link {
+    margin-left: 2rem;
+    margin-right: 1rem;
     text-decoration: none;
-    color: cadetblue;
-    font-weight: 300;
+    color: #EAE2B6;
+    transition: all .3s ease-in-out;
+}
+
+.link:hover {
+    transform:translateX(10px);
+    text-shadow: 1px 1px 1px rgba(170, 158, 158, 0.555);   
+    color: rgb(230, 76, 76);
+   
 }
 
 
@@ -30,8 +39,3 @@
 
 
 
-.item {
-    display: inline;
-    margin-right: 2rem;
- 
-    }
