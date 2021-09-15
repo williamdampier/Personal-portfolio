@@ -8,7 +8,7 @@ function ProjectsCarousel() {
 
   return ( 
     <div id="projects">
-    <h1 style={{'margin-top': '30px'}}>My work:</h1>
+    <h1 style={{'margin-top': '30px'}}>My Study Projects:</h1>
     <Carousel
     
     plugins={[
