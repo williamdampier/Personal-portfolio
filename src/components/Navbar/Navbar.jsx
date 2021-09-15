@@ -8,7 +8,7 @@ function Navbar() {
         <nav className={cl.navlist}>
            <a className={cl.link} href="#welcome-section">About</a>
            <a className={cl.link} href="#projects">Work</a>
-           <a className={cl.link} target="_blank" href="https://github.com/williamdampier">GitHub</a>
+           <a className={cl.link} target="_blank" rel="noreferrer" href="https://github.com/williamdampier">GitHub</a>
            <a className={cl.link} href="mailto:vladimir.kuban88@gmail.com">Contact</a>
             
         </nav>
