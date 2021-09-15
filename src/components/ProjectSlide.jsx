@@ -18,9 +18,9 @@ function ProjectSlide({name, id, description, icons, github, weblink}) {
         </ul>
         <hr />
        <div className="project-links">
-           <a href={github} target="_blank"><img src="/icons/github.png" alt="github icon"></img></a>
+           <a href={github} target="_blank" rel="noreferrer"><img src="/icons/github.png" alt="github icon"></img></a>
            
-           <a href={weblink} target="_blank"><img src="/icons/online.png" alt="weblink icon"></img></a>
+           <a href={weblink} target="_blank" rel="noreferrer"><img src="/icons/online.png" alt="weblink icon"></img></a>
            
         </div> 
       </div>
