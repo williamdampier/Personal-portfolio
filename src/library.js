@@ -10,7 +10,7 @@ const projects = [
         "react",
         ],
         github: "https://github.com/williamdampier/Personal-portfolio",
-        weblink: "http://facebook.com"
+        weblink: "https://personal-portfolio-omega-navy.vercel.app/"
         
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         "react",
         ],
         github: "https://github.com/williamdampier/simple-blog",
-        weblink: "http://facebook.com"
+        weblink: "https://simple-blog-rust.vercel.app/"
     },
     {
         id: 102,
