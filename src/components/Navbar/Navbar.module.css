@@ -5,15 +5,16 @@
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 100vw;
+    width:100vw;
     box-shadow: 1px 1px 5px 1px rgb(153 153 155 / 40%);
     background-color: #082032;
     z-index: 1;
 }
 
 .link {
-    margin-left: 2rem;
-    margin-right: 1rem;
+    padding-left: 5px;
+    margin-left: 1rem;
+    margin-right: 2rem;
     text-decoration: none;
     color: #EAE2B6;
     transition: all .3s ease-in-out;
@@ -38,4 +39,11 @@
 }
 
 
+      
+@media only screen and (max-width: 400px) {
+    .link {
+        margin: 0 10px;
+    }
+    
 
+  }

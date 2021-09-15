@@ -8,7 +8,7 @@ function ProjectsCarousel() {
 
   return ( 
     <div id="projects">
-    <h1>My work:</h1>
+    <h1 style={{'margin-top': '30px'}}>My work:</h1>
     <Carousel
     
     plugins={[
@@ -17,6 +17,7 @@ function ProjectsCarousel() {
     ]}
     
     >
+    
     {projects.map( (project) => {
       return <ProjectSlide 
         name={project.name}
