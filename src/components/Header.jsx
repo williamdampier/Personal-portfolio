@@ -1,4 +1,3 @@
-
 import React from "react";
 
 function Header() {
@@ -13,15 +12,20 @@ function Header() {
 
         <section id="skills-section">
             <h1>Experience</h1>
-            <h2>I never stop learning something new and practice! Here are technologies that I've been working in recently:</h2>
-            <div class="icon-bar">
-                <img  src={"/icons/html.png"} alt="html-icon"></img>
-                <img  src={"/icons/css.png"} alt="css-icon"></img>
-                <img  src={"/icons/javascript.png"} alt="javascript-icon"></img>
-                <img  src={"/icons/react.png"} alt="react-icon"></img>
-                <img  src={"/icons/node.png"} alt="node-icon"></img>
-                <img  src={"/icons/mongodb.png"} alt="mongodb-icon"></img>
-            </div>
+            <h2>I never stop learning something new! Impossible to know everything on 100%,
+            but I try to get solid understanding of technology and practice. Here are technologies that I've been working in recently:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>React</li>
+                <li>SQL</li>
+                <li>GIT</li>
+                <li>Python</li>
+            </ul>
         </section>
 
     </div>
