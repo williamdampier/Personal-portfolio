@@ -41,15 +41,16 @@ const projects = [
     {
         id: 103,
         name: "Personal Diary Blog",
-        description: "Blog built with EJS and dynamic routing via express and EJS",
+        description: "Blog built with EJS+express. try /compose in URL to add new post",
         icons: [
         "html",
         "css",
         "javascript",
-        "node"
+        "node",
+        "mongodb"
         ],
         github: "https://github.com/williamdampier/blog-website-ejs",
-        weblink: "http://facebook.com"
+        weblink: "https://ejs-blog-891.herokuapp.com/"
     },
     {
         id: 104,
@@ -60,23 +61,24 @@ const projects = [
         "css",
         "javascript",
         "node",
+        "mongodb"
         ],
         github: "https://github.com/williamdampier/wikiDB",
-        weblink: "http://facebook.com"
+        weblink: "https://wiki-api-092.herokuapp.com/articles"
     },
     {
         id: 105,
         name: "Secrets",
-        description: "App that keeps Secrets (in form of notes). Implemented with Auth0",
+        description: "App that keeps Secrets (in form of notes). Implemented with Auth0. Note that I no longer maintain Google API key, feel free to test on yours",
         icons: [
         "html",
         "css",
         "javascript",
-        "react",
         "node",
+        "mongodb"
         ],
         github: "https://github.com/williamdampier/Secrets",
-        weblink: "http://facebook.com"
+        weblink: "https://github.com/williamdampier/Secrets"
     },
     {
         id: 106,
@@ -85,11 +87,10 @@ const projects = [
         icons: [
         "html",
         "css",
-        "javascript",
-        "react",
+        "javascript"
         ],
         github: "https://github.com/williamdampier/random-quote-generator",
-        weblink: "http://facebook.com"
+        weblink: "https://random-quote-generator-puce.vercel.app/"
     },
     {
         id: 107,
@@ -99,10 +100,9 @@ const projects = [
         "html",
         "css",
         "javascript",
-        "node",
         ],
         github: "https://github.com/williamdampier/Simon-Game",
-        weblink: "http://facebook.com"
+        weblink: "https://simon-game-two-beige.vercel.app/"
     },
     {
         id: 108,
@@ -113,7 +113,7 @@ const projects = [
         "css",
         ],
         github: "https://github.com/williamdampier/tindog",
-        weblink: "http://facebook.com"
+        weblink: "https://tindog-steel.vercel.app/"
     },
 
 ]
