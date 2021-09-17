@@ -64,7 +64,7 @@ const projects = [
         "mongodb"
         ],
         github: "https://github.com/williamdampier/wikiDB",
-        weblink: "https://wiki-api-092.herokuapp.com/articles"
+        weblink: "https://wiki-api-092.herokuapp.com/"
     },
     {
         id: 105,
