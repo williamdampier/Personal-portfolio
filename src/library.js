@@ -1,5 +1,19 @@
 const projects = [
     {
+        id: 99,
+        name: "Keeper",
+        description: "Keeper copy app built with React",
+        icons: [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        ],
+        github: "https://github.com/williamdampier/react-keeper-app",
+        weblink: "https://react-keeper-app.vercel.app/"
+        
+    },
+    {
         id: 100,
         name: "Portfolio Website",
         description: "This website built with React",
