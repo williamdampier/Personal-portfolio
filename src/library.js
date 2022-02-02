@@ -1,5 +1,20 @@
 const projects = [
     {
+        id: 98,
+        name: "Bookmarks organizer",
+        description: "1. Free hsoting, sleeping mode. Backend start: https://organizer-backend222.herokuapp.com/ 2. Due to lack of SSL cert :if you want to test functionality - please allow unverified content on that page. 3. Backend code can be found here:  https://organizer-backend222.herokuapp.com/",
+        icons: [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "node"
+        ],
+        github: "https://github.com/williamdampier/react-keeper-app",
+        weblink: "https://organizer-front2222.herokuapp.com/"
+        
+    },
+    {
         id: 99,
         name: "Keeper",
         description: "Keeper copy app built with React",
