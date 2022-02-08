@@ -132,18 +132,7 @@ const projects = [
         ],
         github: "https://github.com/williamdampier/Simon-Game",
         weblink: "https://simon-game-two-beige.vercel.app/"
-    },
-    {
-        id: 108,
-        name: "TinDog",
-        description: "Website built with HTML + CSS + a bit of Bootstrap (just to make things pretty :) )",
-        icons: [
-        "html",
-        "css",
-        ],
-        github: "https://github.com/williamdampier/tindog",
-        weblink: "https://tindog-steel.vercel.app/"
-    },
+    }
 
 ]
 
